@@ -1,5 +1,6 @@
 #!/bin/bash
 
+date 
 echo "CI: $CI"
 echo "CIRLECI: $CIRLECI"
 echo "CIRCLE_ARTIFACTS: $CIRCLE_ARTIFACTS"

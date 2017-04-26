@@ -9,6 +9,6 @@ machine:
 
 test:
   pre:
-    - ./test.sh
+    - bash test.sh
   post:
-    - ./test.sh
+    - bash test.sh

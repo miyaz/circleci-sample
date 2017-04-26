@@ -1,3 +1,14 @@
 machine:
+  timezone:
+    Asia/Tokyo
   node:
     version: 6.10.1
+  environment:
+    foo: bar
+    baz: 123
+
+test:
+  pre:
+    - ./test.sh
+  post:
+    - ./test.sh
